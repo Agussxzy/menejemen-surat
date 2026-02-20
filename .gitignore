@@ -1,0 +1,48 @@
+```
+# Dependencies
+vendor/
+node_modules/
+
+# Build and cache directories
+bootstrap/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+public/storage/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled files
+*.phpc
+*.class
+*.o
+*.obj
+*.out
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Package manager
+composer.lock
+yarn.lock
+package-lock.json
+```
